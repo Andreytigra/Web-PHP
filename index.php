@@ -10,6 +10,7 @@
     <title>Prezentace</title>
   </head>
 <body class="d-flex flex-column h-100">
+
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="container-fluid">
@@ -25,10 +26,11 @@
       </div>
     </nav>
 </header>
-
+<?php
+echo 'My first PHP script!';
+?>
 
 <main class="flex-shrink-0 mt-3">
-
   <div class="row mt-2">
     <div class="col-sm-2"></div>
     <div class="col-sm-8">
