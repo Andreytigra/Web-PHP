@@ -32,24 +32,36 @@ echo "Průměrný počet bodu: " . "<strong>" . $prumer . "</strong>";
 br();
 hr();
 
-$uspesnost = $celkem / $max * 100 . "%";
-echo "Procentuální úspěšnost ze všech testů: " . "<strong>" . $uspesnost . "</strong>";
+$uspesnost = $celkem / $max * 100;
+echo "Procentuální úspěšnost ze všech testů: " . "<strong>" . $uspesnost . "%" . "</strong>";
 br();
 hr();
 
 $grade;
-if($uspesnost <= 100) {
+if ($uspesnost < 0 || $uspesnost > 100) {
+    echo "Neplatné bodové hodnocení";
+    return;
+}elseif($uspesnost >= 90) {
+    echo "výborný";
     $grade = 1;
-} elseif ($uspesnost < 90) {
+} elseif ($uspesnost >= 75) {
+    echo "chvalitebný";
     $grade = 2;
-} elseif ($uspesnost < 75) {
+} elseif ($uspesnost >= 60) {
+    echo "dobrý";
     $grade = 3;
-} elseif ($uspesnost < 60) {
+} elseif ($uspesnost >= 40) {
+    echo "dostatečný";
     $grade = 4;
-} elseif ($uspesnost < 40) {
+} else {
+    echo "nedostatečný";
     $grade = 5;
 }
-echo "<h3>Výsledná známka: " . $grade . "</h3>";
+if($grade != 5) {
+    echo "<h3>Výsledná známka: " . $grade . "</h3>";
+} else {
+    echo "<h3>Bonusové úkoly</h3>";
+}
 br();
 
 ?>
