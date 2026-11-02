@@ -1,8 +1,8 @@
 <?php
-$studentName = "Jan Novák";
+$studentName = "Andrii Romanenko";
 $test1 = 75;
 $test2 = 90;
-$test3 = 60;
+$test3 = 80;
 $max = 300;
 
 function br() {
@@ -11,6 +11,11 @@ function br() {
 
 function hr() {
     echo '<hr width="100%" size="3" color="black">';
+}
+
+if($test1 > 100 || $test2 > 100 || $test3 > 100) {
+    echo "Neplatné body v testu";
+    return;
 }
 
 echo "<h2>$studentName</h2>";
