@@ -15,13 +15,35 @@
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Romanenko Andrii</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="">
+
+        <div class="collapse navbar-collapse" id="navbarsExample01">
+          <ul class="navbar-nav me-auto mb-2">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+            </li>
+          </ul>
+          <div class="">
           <a href="#">
-            <button class="btn btn-success" type="submit">Log-in</button>
+          <button class="btn btn-success" type="submit">Log-in</button>
           </a>
+          </div>
         </div>
       </div>
     </nav>
@@ -34,28 +56,38 @@ echo 'My first PHP script!';
   <div class="row mt-2">
     <div class="col-sm-2"></div>
     <div class="col-sm-8">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="container">
+            <h1 class="mt-5">Prezentace sebe</h1>
+            <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS.</p>
+
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <img src="img/Profile.png" class="img-fluid">
+        </div>
+      </div>
       <div class="container">
-        <h1 class="mt-5">Prezentace sebe</h1>
-        <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS.</p>
         <h2 class="mt-2 text-center">Skills</h2>
         <div class="row">
           <div class="col-sm-6">
-            <ul class="list-group mb-4">
-              <li class="list-group-item">An item</li>
-              <li class="list-group-item">A second item</li>
-              <li class="list-group-item">A third item</li>
-              <li class="list-group-item">A fourth item</li>
-              <li class="list-group-item">And a fifth one</li>
-            </ul>
+          <ul class="list-group mb-4">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">A fourth item</li>
+            <li class="list-group-item">And a fifth one</li>
+          </ul>
           </div>
           <div class="col-sm-6">
             <ul class="list-group mb-4">
-              <li class="list-group-item">An item</li>
-              <li class="list-group-item">A second item</li>
-              <li class="list-group-item">A third item</li>
-              <li class="list-group-item">A fourth item</li>
-              <li class="list-group-item">And a fifth one</li>
-            </ul>
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">A fourth item</li>
+            <li class="list-group-item">And a fifth one</li>
+          </ul>
           </div>
         </div>
       </div>
