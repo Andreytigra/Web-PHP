@@ -56,28 +56,38 @@ echo 'My first PHP script!';
   <div class="row mt-2">
     <div class="col-sm-2"></div>
     <div class="col-sm-8">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="container">
+            <h1 class="mt-5">Prezentace sebe</h1>
+            <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS.</p>
+
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <img src="img/Profile.png" class="img-fluid">
+        </div>
+      </div>
       <div class="container">
-        <h1 class="mt-5">Prezentace sebe</h1>
-        <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS.</p>
         <h2 class="mt-2 text-center">Skills</h2>
         <div class="row">
           <div class="col-sm-6">
-            <ul class="list-group mb-4">
-              <li class="list-group-item">An item</li>
-              <li class="list-group-item">A second item</li>
-              <li class="list-group-item">A third item</li>
-              <li class="list-group-item">A fourth item</li>
-              <li class="list-group-item">And a fifth one</li>
-            </ul>
+          <ul class="list-group mb-4">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">A fourth item</li>
+            <li class="list-group-item">And a fifth one</li>
+          </ul>
           </div>
           <div class="col-sm-6">
             <ul class="list-group mb-4">
-              <li class="list-group-item">An item</li>
-              <li class="list-group-item">A second item</li>
-              <li class="list-group-item">A third item</li>
-              <li class="list-group-item">A fourth item</li>
-              <li class="list-group-item">And a fifth one</li>
-            </ul>
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">A fourth item</li>
+            <li class="list-group-item">And a fifth one</li>
+          </ul>
           </div>
         </div>
       </div>
