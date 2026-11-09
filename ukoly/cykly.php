@@ -3,7 +3,7 @@
 // Ukol A
 
 for($i = 1; $i < 8; $i++) {
-    echo "test" . $i;
+    echo $i;
     echo "<br>";
 }
 
@@ -12,7 +12,7 @@ echo "<br>";
 // Ukol B
 
 for($i = 2; $i <= 20; $i+=2) {
-    echo "test" . $i;
+    echo $i;
     echo "<br>";
 }
 
@@ -22,7 +22,7 @@ echo "<br>";
 
 for($i = 2; $i <= 20; $i++) {
     if(($i % 2) == 0) {
-        echo "test" . $i;
+        echo $i;
         echo "<br>";
     }
 }
@@ -34,7 +34,7 @@ echo "<br>";
 $number = 7;
 
 for($i = 1; $i <= 10; $i++) {
-    echo $number . "*" . $i . "=" . ($number*$i);
+    echo $number . " x " . $i . " = " . ($number*$i);
     echo "<br>";
 }
 
